@@ -6,3 +6,7 @@
   - name: user creation
     ansible.builtin.user:
       name: johnd
+
+  - name: print the output
+    ansible.builtin.debug:
+      msg: "{{ NAME }}"
