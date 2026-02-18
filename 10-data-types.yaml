@@ -14,11 +14,10 @@
     - Ansible
   tasks:
   - name: print variables
-    ansible.built.dubug:
+    ansible.builtin.dubug:
       msg: |
         program: {{ PROGRAM  }}  
         Duration: {{ DURATION }}
         IS_Live?: {{ IS_Live }}
         Details: {{ DETAILS }}
         Topics: {{ TOPICS }}
-        
