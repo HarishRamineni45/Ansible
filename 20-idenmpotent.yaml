@@ -7,6 +7,6 @@
     ansible.builtin.user:
       name: johnd
 
-  - name: print the output
-    ansible.builtin.debug:
-      msg: "{{ name }}"
+  # - name: print the output
+  #   ansible.builtin.debug:
+  #     msg: "{{ name }}"
